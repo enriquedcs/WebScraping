@@ -27,3 +27,6 @@ print(response.content)
 4xx     Client Error
 5xx     Server Error
 '''
+
+#Headers returned
+
