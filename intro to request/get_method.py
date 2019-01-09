@@ -21,12 +21,19 @@ print(response.content)
 #Status codes
 
 '''
-1xx     Informational
-2xx     Success
-3xx     Redirection
-4xx     Client Error
-5xx     Server Error
+1xx     Informational       100-199
+2xx     Success             200-299
+3xx     Redirection         300-399
+4xx     Client Error        400-499
+5xx     Server Error        500-599
 '''
 
 #Headers returned
+
+#response.headers
+
+print(response.headers)
+
+for key,value in response.headers.item():
+    print(key,'    ',value)
 
